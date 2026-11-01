@@ -12,7 +12,7 @@ No final salvei a base limpa como df_limpo.
 Base usada: https://www.kaggle.com/datasets/namespaiva/base-varejo/data
 
 ## Arquivos
-- `Miniprojeto_IsaiasMoreno_T4/Miniprojeto_IsaiasMoreno_T4.ipynb` - o notebook do Colab (sem as saidas, e so rodar as celulas para ver)
+- `Miniprojeto_IsaiasMoreno_T4/Miniprojeto_IsaiasMoreno_T4.ipynb` - notebook do Colab executado, com as saidas
 - `Miniprojeto_IsaiasMoreno_T4/Miniprojeto_IsaiasMoreno_T4.py` - o mesmo codigo em .py
 - `Miniprojeto_IsaiasMoreno_T4/df_limpo.zip` - a base limpa (o df_limpo.csv ta dentro do zip, porque o csv passa de 25 MB)
 - `Miniprojeto_IsaiasMoreno_T4/README_IsaiasMoreno_T4.md` - como rodar

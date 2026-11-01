@@ -1,7 +1,7 @@
 # Instrucoes - Mini-Projeto Isaias Moreno T4
 
 ## O que tem nessa pasta
-- `Miniprojeto_IsaiasMoreno_T4.ipynb` - o notebook do Google Colab (as saidas aparecem depois de rodar)
+- `Miniprojeto_IsaiasMoreno_T4.ipynb` - notebook do Colab executado, com as saidas
 - `Miniprojeto_IsaiasMoreno_T4.py` - o codigo em Python
 - `df_limpo.zip` - a base limpa (e so descompactar para ter o df_limpo.csv)
 
