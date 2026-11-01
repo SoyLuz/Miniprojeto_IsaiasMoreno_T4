@@ -29,9 +29,9 @@ Transformar foi a parte que deu mais trabalho. Tive que tirar as colunas vazias,
 trocar o #N/D por "Sem Categoria", tirar as linhas repetidas, mudar a data de texto para datetime
 e conferir a regra do CO_ID.
 Carregar foi salvar o df_limpo, que depois da para usar num dashboard.
-Percebi que a qualidade dos dados faz muita diferenca. Se eu nao tirasse as 96.553 linhas duplicadas,
-todas as contagens iam ficar maiores do que sao. Ai a conclusao ia sair errada.
-Mas tambem percebi que limpar exige escolher uma hipotese, e eu tive que deixar isso anotado.
+Percebi que a qualidade dos dados faz muita diferenca. Por exemplo, a base tinha 96.553 linhas iguais em tudo.
+Para mim elas pareciam registros repetidos, entao eu decidi tirar, senao as contagens iam ficar maiores.
+Mas isso foi uma decisao com base na minha hipotese, nao uma certeza. Por isso eu deixei anotado mais abaixo.
 
 ## Problemas encontrados e tratamento
 A base original tinha 830.000 linhas e 14 colunas. Os problemas que eu achei foram estes:
@@ -66,7 +66,7 @@ O codigo tambem mostra quantos clientes nao tem filhos: 527.
 - As mulheres fizeram um pouco mais de compras que os homens: 9.615 (F) contra 8.856 (M). Mas a quantidade de registros de produtos por compra e quase a mesma, uns 40 nos dois.
 - Percebi que a maioria dos clientes nao tem filhos. A mediana e a moda deram 0, e 527 dos 1.000 clientes tem 0 filhos. A media ficou 1,14 e o maximo e 4.
 - O segmento B e o que mais compra em todas as categorias (so de ALIMENTOS foram 245.501 registros). O segmento A e o que menos compra.
-- As compras mudam bastante de um mes para outro. Os meses com mais compras foram 05/2019 e 10/2021 (711 cada). Ja 09/2022 (35) e 10/2022 (59) tem muito pouco. Eu acho que faltam dados nesses meses.
+- As compras mudam bastante de um mes para outro. Os meses com mais compras foram 05/2019 e 10/2021 (711 cada). Ja 09/2022 (35) e 10/2022 (59) tem muito pouco. Pode ser que faltem dados nesses meses, ou pode ser que so teve menos movimento mesmo. Com essa base eu nao consigo confirmar a causa.
 
 ## O que ainda ficou faltando
 - A base nao tem preco nem valor. Entao aqui eu contei registros de produtos, nao dinheiro.
