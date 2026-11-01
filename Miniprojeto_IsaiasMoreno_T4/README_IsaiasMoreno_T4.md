@@ -1,18 +1,18 @@
 # Instrucoes - Mini-Projeto Isaias Moreno T4
 
-## O que tem nesta pasta
-- `Miniprojeto_IsaiasMoreno_T4.ipynb` - notebook do Google Colab (com as saidas)
-- `Miniprojeto_IsaiasMoreno_T4.py` - codigo em Python
-- `df_limpo.zip` - base limpa (descompactar para ter o df_limpo.csv)
+## O que tem nessa pasta
+- `Miniprojeto_IsaiasMoreno_T4.ipynb` - o notebook do Google Colab (com as saidas)
+- `Miniprojeto_IsaiasMoreno_T4.py` - o codigo em Python
+- `df_limpo.zip` - a base limpa (e so descompactar para ter o df_limpo.csv)
 
 ## Como rodar
-1. Baixar a base no Kaggle: https://www.kaggle.com/datasets/namespaiva/base-varejo/data e descompactar. O arquivo usado e o `Base Varejo.csv`.
-2. Abrir o arquivo Miniprojeto_IsaiasMoreno_T4.ipynb no Google Colab (ou o .py no VS Code).
-3. Colocar o arquivo Base Varejo.csv na mesma pasta (no Colab, subir pelo painel de Arquivos).
-4. Rodar todas as celulas (ou no terminal: `python Miniprojeto_IsaiasMoreno_T4.py`).
-5. No final o codigo salva o arquivo df_limpo.csv.
+1. Baixe a base no Kaggle (https://www.kaggle.com/datasets/namespaiva/base-varejo/data) e descompacte. O arquivo que eu usei e o `Base Varejo.csv`.
+2. Abra o Miniprojeto_IsaiasMoreno_T4.ipynb no Google Colab (ou o .py no VS Code).
+3. Coloque o Base Varejo.csv na mesma pasta. No Colab eu subi pelo painel de Arquivos.
+4. Rode todas as celulas. No terminal tambem da: `python Miniprojeto_IsaiasMoreno_T4.py`.
+5. No final o codigo salva o df_limpo.csv.
 
-## Resultado esperado
+## O que tem que dar
 - Base original: 830.000 linhas e 14 colunas
 - Base limpa: 733.447 linhas e 10 colunas
 - 1.000 clientes, 18.471 compras, 229 produtos, 7 categorias
